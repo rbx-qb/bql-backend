@@ -7,4 +7,3 @@
     { "src": "/api/(.*)", "dest": "api/run.py" }
   ]
 }
-
