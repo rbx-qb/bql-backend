@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from engine_bql import BQLHybridEngine
 
-app = FastAPI()
+app = FastAPI()  # isso é crucial!
 
 engine = BQLHybridEngine()
 
